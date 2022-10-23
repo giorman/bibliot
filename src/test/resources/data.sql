@@ -1,0 +1,1 @@
+insert into prestamo (id, isbn, fecha_maxima_devolucion, identificacion_usuario, tipo_usuario) values (null, 'HAKHD585D4', '13/09/2022', '2222222222', 2)
