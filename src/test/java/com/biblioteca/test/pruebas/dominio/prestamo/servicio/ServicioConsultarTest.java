@@ -1,6 +1,6 @@
-package com.biblioteca.calificador.pruebas.dominio.prestamo.servicio;
+package com.biblioteca.test.pruebas.dominio.prestamo.servicio;
 
-import com.biblioteca.calificador.pruebas.dominio.prestamo.testdata.PrestamoTestData;
+import com.biblioteca.test.pruebas.dominio.prestamo.testdata.PrestamoTestData;
 import com.biblioteca.dominio.prestamo.modelo.dto.PrestamoDto;
 import com.biblioteca.dominio.prestamo.modelo.entidad.Prestamo;
 import com.biblioteca.dominio.prestamo.puerto.RepositorioPrestamo;

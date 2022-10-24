@@ -1,6 +1,6 @@
-package com.biblioteca.calificador.pruebas.infraestructura.prestamo.controlador;
+package com.biblioteca.test.pruebas.infraestructura.prestamo.controlador;
 
-import com.biblioteca.calificador.pruebas.infraestructura.prestamo.testdata.ComandoPrestamoTestData;
+import com.biblioteca.test.pruebas.infraestructura.prestamo.testdata.ComandoPrestamoTestData;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import org.junit.Test;

@@ -1,4 +1,4 @@
-package com.biblioteca.calificador;
+package com.biblioteca.test;
 
 public class ResultadoPrestarTest {
     private int id;

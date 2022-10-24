@@ -19,6 +19,7 @@ public class ServicioIngresarPrestamo {
     public static final int USUARIO_INVITADO = 3;
     public static final int USUARIO_EMPLEADO = 2;
     public static final int USUARIO_AFILIADO = 1;
+    public static final String YA_TIENE_UN_LIBRO_PRESTADO= " ya tiene un libro prestado por lo cual no se le puede realizar otro préstamo";
     private DateTimeFormatter formato = DateTimeFormatter.ofPattern("dd/MM/yyyy");
 
     private final RepositorioPrestamo repositorioPrestamo;
@@ -28,7 +29,7 @@ public class ServicioIngresarPrestamo {
     }
 
     public PrestamoExitosoDto ejecutar(Prestamo prestamo) {
-        String mensaje = "El usuario con identificación " + prestamo.getIdentificacionUsuario() + " ya tiene un libro prestado por lo cual no se le puede realizar otro préstamo";
+        String mensaje = "El usuario con identificación " + prestamo.getIdentificacionUsuario() + YA_TIENE_UN_LIBRO_PRESTADO;
         if (prestamo.getTipoUsuario() == USUARIO_INVITADO && validarPrestamo(prestamo)) {
             throw new ExcepcionUsuarioInvitadoTieneLibro(mensaje);
         }

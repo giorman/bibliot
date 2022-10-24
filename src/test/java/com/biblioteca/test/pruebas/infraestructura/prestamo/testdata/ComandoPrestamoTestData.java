@@ -1,16 +1,21 @@
-package com.biblioteca.calificador;
+package com.biblioteca.test.pruebas.infraestructura.prestamo.testdata;
 
-public class SolicitudPrestarLibroTest {
+
+public class ComandoPrestamoTestData {
 
     private String isbn;
     private String identificacionUsuario;
     private int tipoUsuario;
 
-    public SolicitudPrestarLibroTest(String isbn, String identificacionUsuario, int tipoUsuario) {
-        this.isbn = isbn;
-        this.identificacionUsuario = identificacionUsuario;
-        this.tipoUsuario = tipoUsuario;
+    public ComandoPrestamoTestData comandoPorDefecto() {
+        this.isbn = "HKSDHK54D5";
+        this.identificacionUsuario = "5548454889";
+        this.tipoUsuario = 1;
+
+        return this;
     }
+
+
 
     public String getIsbn() {
         return isbn;
@@ -23,4 +28,6 @@ public class SolicitudPrestarLibroTest {
     public int getTipoUsuario() {
         return tipoUsuario;
     }
+
+
 }

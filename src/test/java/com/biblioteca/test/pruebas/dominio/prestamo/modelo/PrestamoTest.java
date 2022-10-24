@@ -1,9 +1,9 @@
-package com.biblioteca.calificador.pruebas.dominio.prestamo.modelo;
+package com.biblioteca.test.pruebas.dominio.prestamo.modelo;
 
 
 import com.biblioteca.dominio.prestamo.excepcion.ExcepcionValorObligatorio;
 import com.biblioteca.dominio.prestamo.modelo.entidad.Prestamo;
-import com.biblioteca.calificador.pruebas.dominio.prestamo.testdata.PrestamoTestData;
+import com.biblioteca.test.pruebas.dominio.prestamo.testdata.PrestamoTestData;
 import org.junit.jupiter.api.Test;
 
 

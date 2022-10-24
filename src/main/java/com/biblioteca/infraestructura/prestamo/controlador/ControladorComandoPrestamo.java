@@ -26,4 +26,11 @@ public class ControladorComandoPrestamo {
         return manejadorIngresarPrestamo.ejecutar(comandoPrestamo);
     }
 
+    @PutMapping("/{id}")
+    @ResponseStatus(HttpStatus.NO_CONTENT)
+    @ApiOperation("editar un prestamo")
+    void editarPrestamo(@PathVariable Long id){
+
+
+    }
 }

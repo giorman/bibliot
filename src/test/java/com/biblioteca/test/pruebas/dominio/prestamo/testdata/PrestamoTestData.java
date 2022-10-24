@@ -1,4 +1,4 @@
-package com.biblioteca.calificador.pruebas.dominio.prestamo.testdata;
+package com.biblioteca.test.pruebas.dominio.prestamo.testdata;
 
 import com.biblioteca.dominio.prestamo.modelo.entidad.Prestamo;
 

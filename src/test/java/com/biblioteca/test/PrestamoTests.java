@@ -1,4 +1,4 @@
-package com.biblioteca.calificador;
+package com.biblioteca.test;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
